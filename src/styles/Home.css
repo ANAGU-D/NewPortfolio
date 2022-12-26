@@ -21,17 +21,17 @@
 
 .about h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 80px;
+  font-size: 70px;
   color: #e9d35b;
   height: 50px;
 }
 
 .about .prompt {
   width: 40%;
-  font-size: 30px;
+  font-size: 20px;
 }
 .prompt svg {
-  font-size: 60px;
+  font-size: 50px;
   margin: 5px;
   color: white;
 }
