@@ -11,9 +11,9 @@ function Home() {
         <h2> Hi, I am Daniel Anagu </h2>
         <div className="prompt">
           <p>A frontend developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/daniel-anagu-476313252" target='_blank'><LinkedInIcon /></a> 
+           <a href = "mailto:anagudaniel2001@gmil.com ?subject = Feedback&body = Message"> <EmailIcon /></a>
+          <a href="https://github.com/ANAGU-D" target='_blank'><GithubIcon /></a>
         </div>
       </div>
       <div className="skills">
@@ -22,13 +22,13 @@ function Home() {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              JavaScript, HTML & CSS, Git, Knowledgable in User Interface/ User Experience, CSS and JS Frameworks, CSS Preprocessors, React JS, Redux, Figma, Node JS.
+              JavaScript, HTML & CSS, Git, Knowledgable in User Interface/ User Experience, CSS and JS Frameworks, CSS Preprocessors, React JS, Redux, Figma.
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, MySQL, MongoDB.
+              NodeJS, MongoDB.
             </span>
           </li>
         </ol>
