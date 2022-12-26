@@ -13,16 +13,43 @@
   font-size: 35px;
 }
 .project img {
-  width: 700px;
+  width: 600px;
   border-radius: 10px;
 }
 
 .project p {
+  width: 70%;
+  font-size: 20px;
+  color: #3e497a;
+  text-align: center;
+}
+.desc{
+  margin-left: 15%;
+}
+
+.icons{
+  display: flex;
+  gap: 20%;
+}
+.project svg {
   font-size: 40px;
   color: #3e497a;
 }
-
-.project svg {
-  font-size: 60px;
-  color: #3e497a;
+@media only screen and (max-width: 600px) {
+  .project img{
+    margin-top: 5%;
+    width: 100%;
+  }
+  .project p{
+    width: 80%;
+    font-size: 16px
+  }
+  .desc{
+    margin-left: 10%;
+  }
+  .icons{
+    display: flex;
+    gap: 20%;
+   
+  }
 }
